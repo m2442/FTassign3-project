@@ -4,12 +4,12 @@ from webapp.models import Activity_period, Member
 
 # Activity_periodSerializer renders start_time and end_time fields to an API request
 class Activity_periodSerializer(serializers.ModelSerializer):
-    # id = serializers.IntegerField(required=False)
+    id = serializers.IntegerField(required=False)
 
     class Meta:
         model = Activity_period
         fields = [
-         'start_time', 'end_time'
+         'id', 'start_time', 'end_time'
         ]
         read_only_fields = ('member',)
 

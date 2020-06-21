@@ -8,7 +8,7 @@ class Member(models.Model):
     tz = models.TextField(max_length=100)
 
     def __str__(self):
-        return '%s %s %s' % (self.id, self.real_name, self.tz)
+        return '%s %s %s' % (self.fullid, self.real_name, self.tz)
 
 # @Property to return all the activity periods assosiated with a member in the ordered dict form.
 # This propery will be used in MemberSerializer in serializers.py
