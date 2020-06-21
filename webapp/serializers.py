@@ -28,7 +28,7 @@ class MemberSerializer(serializers.ModelSerializer):
         for activity_period in activity_periods:
             Activity_period.objects.create(**activity_period, member=member)
         return member
-    # We want to use this serializer for creating the data
+    # We want to use this serializer for updating the data
     def update(self, instance, validated_data):
         activity_periods = validated_data.pop('activity_periods')
         instance.fullid = validated_data.get("fullid", instance.fullid)
