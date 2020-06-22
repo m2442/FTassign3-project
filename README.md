@@ -10,7 +10,10 @@ Djangorestframework 3.11
 
 Results can be verified on http://134.122.30.131/viewset/Member/
 Token would be required.
-![res1](https://user-images.githubusercontent.com/17208562/85238645-f4745400-b44c-11ea-8b65-95c87889fde8.png)
+
+# Result:
+![res2](https://user-images.githubusercontent.com/17208562/85238706-7a909a80-b44d-11ea-8a38-c02440e85192.png)
+![res3](https://user-images.githubusercontent.com/17208562/85238708-7c5a5e00-b44d-11ea-8cd8-2464fca26ac0.png)
 
 
 
